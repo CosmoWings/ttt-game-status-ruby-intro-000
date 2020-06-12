@@ -76,7 +76,7 @@ def winner(board_array)
   elsif
   else
     return nil
-  end won?(board_array) && board_array.include("X")
+  end 
   
 end
 
