@@ -62,7 +62,7 @@ end
 
 def over?(board_array)
   #going to put an if statement to cover each specific situation
-  if draw?(board_array) || won?(board_array)
+  if full?(board_array) || won?(board_array)
     return true
   else
     return false
