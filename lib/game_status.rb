@@ -73,7 +73,7 @@ end
 def winner(board_array)
   if won?(board_array) && board_array.include?("X")
     return "X"
-  elsif won?(board_array) && board_array.include?("O")
+  if won?(board_array) && board_array.include?("O")
     return "O"
   else
     return nil
