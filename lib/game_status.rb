@@ -72,10 +72,10 @@ end
 #code for winner method
 def winner(board_array)
   if won?(board_array)
-    if board_array.include?("X")
-      return "X"
-    else
+    if board_array.include?("O")
       return "O"
+    else
+      return "X"
     end
   else
     return nil
